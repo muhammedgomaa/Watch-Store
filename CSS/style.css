@@ -1,0 +1,314 @@
+/* ALLLLLLLLLLLL */
+*{
+    scroll-behavior: smooth; 
+}
+/* body:not(:first-child) {
+    overflow-x: hidden!important;
+  } */
+
+body{
+    background-color: white;
+}
+
+.btn {
+    font-weight: 200;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+/* Start Nav */
+.logo{
+    width: 120px;
+}
+.nav-item{
+    padding: 0px 20px;
+    color: black;
+}
+
+.navbar{
+    font-size: larger;
+}
+.nav-item:hover{
+    background-color: rgba(255, 0, 0, 0.409);
+    border-radius: 10px;
+
+}
+
+
+
+
+ /* Start sec1 */
+
+.sec-1 .text{
+    margin-top: 120px;
+    padding:  60px 100px;
+}
+.sec-1  .text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+}
+.sec-1  .text p {
+    padding: 15px 0;
+    font-size: 27px;
+}
+.sec-1 .text button {
+    font-size: 19px;  
+    padding: 10px 20px;
+    background-color: #ff0000; 
+}
+.sec-1 img{
+    padding-right: 150px;
+}
+.sec-1 .btn {
+    font-weight: 200;
+    transition: 0.5s;
+}
+.sec-1 .btn:hover{
+    transform: translateY(-10px);
+} 
+
+
+/* Start */
+.card{
+    width: 300px;
+}
+
+.card-title{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-text{
+    color: #ff0000;
+    text-align: center;
+    font-size: 25px;
+
+}
+.card-body .btn{
+    background-color: #ff0000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+/* Start Watch Section  */
+.watch #last-img{
+    margin-top: 37px;
+}
+.watch .images {
+overflow: hidden;
+}
+.watch .images img {
+transform: scale(1.1);
+transition: 0.5s ease-in-out;
+}
+.watch .images:hover img{
+transform: scale(1);
+filter: brightness(60%);
+}
+/* End Watch Section  */
+/* test hover*/
+.hoveritems{
+    position: relative;
+    overflow: hidden;
+}
+.hoveritems img{
+    transition: 0.4s;
+}
+.hoveritems p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: #ff0000;
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+    opacity: 0.7;
+    text-align: center;
+    transform: translate(0, 150%);
+    transition: 0.2s;
+}
+.hoveritems:hover p {
+    transform: translate(0,14px) ;
+}
+
+.hoveritems i {
+    position: absolute;
+    top: 0;
+    right:0;
+    color: #ff0000;
+    transform: translate(0, -100%);
+    font-size: 35px;
+
+}
+.hoveritems:hover i {
+    transform: translate(-20px, 20px) ;
+}
+
+
+
+
+/* Start Choice Section  */
+.choice {
+    margin-top: 100px;
+}
+.choice .text {
+    margin-top: 30px;
+}
+.choice  .text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+.choice  .text p {
+    line-height: 2;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.choice .text button {
+    margin-top: 15px;    
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.choice .text button:hover{
+    transform: translateY(-10px);
+}
+
+/* start */
+.cont7{
+    background-image: url(../img/gallery/vidoe_more.png);
+    background-size: cover;
+    padding: 30px 50px;
+    color:  white;
+}
+.cont7 i{
+    font-size: 35px;
+}
+
+
+/* Footer */
+.socialicons{
+    overflow-y: hidden!important
+}
+.mb-4 a{
+    overflow-y: hidden!important
+}
+.socialicons{
+    height: 70px;
+}
+
+.text-uppercase{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+
+
+
+/* Start Responsive */
+/* 1400-1200 */
+.sec-2 .card{
+    width: 25rem;
+ }
+ @media (max-width: 1400px){
+    .sec-2 .card{
+      width: 20rem;
+   }
+  }
+  @media (max-width: 1200px){
+    .sec-2 .card{
+      width: 18rem;
+   }
+  }
+
+  .sec-4 .card{
+    width: 25rem;
+ }
+ @media (max-width: 1400px){
+    .sec-4 .card{
+      width: 20rem;
+   }
+  }
+  @media (max-width: 1200px){
+    .sec-4 .card{
+      width: 18rem;
+   }
+  }
+  @media (max-width: 1200px){
+    .sec-1  .text h1 {
+        font-size: 50px;
+        font-weight: 600;
+        color: black;
+    }
+    .sec-1  .text p {
+        padding: 15px 0;
+        font-size: 19px;
+    }
+  }
+  /* 992 */
+  @media (max-width: 992px){
+    .image-one{
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-1 .text {
+        margin: 20px;
+    }
+  }
+  /* 768 */
+  @media (max-width: 768px){
+    .sec-2 .card{
+        width: 33rem;
+    }
+    .sec-4 .card{
+        width: 33rem;
+    }
+    .cont77{
+        display: flex;
+        flex-direction: column;
+    }
+    .choice .col-lg-6 p{
+        margin: 0;
+    }
+  }
+
+
+/* 567 */
+@media (max-width: 576px){
+    .sec-1  .text h1 {
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        margin: 0;
+        margin:  -50px -50px 0 -50px;
+    }
+    .sec-1  .text p {
+        font-size: 20px;
+        margin:  0 -50px 0 -50px;
+    }
+    .sec-1  .text button {
+        margin-left: -50px;
+    }
+    .sec-2 .card{
+        width: 18rem;
+        margin: 0 auto;
+    }
+    .sec-4 .card{
+        width: 18rem;
+        margin: 0 auto;
+    }
+    .fab{
+        font-size: 10px;
+        padding: 0;
+    }
+  }
